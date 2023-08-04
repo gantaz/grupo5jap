@@ -1,9 +1,7 @@
-body {
-    background-color: rgb(255, 255, 165);
-}
+body{background-image: linear-gradient(to right, grey,white);}
 
 .image{
-    border: 5px solid green;
+    border: 5px solid white;
     border-radius: 10px;
     height: 400px;
 }
