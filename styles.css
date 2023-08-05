@@ -1,5 +1,5 @@
-body {
-    background-image: linear-gradient(to right, rgb(128, 128, 128), darkgrey);
+.pages {
+    background-image: linear-gradient(to right, rgb(1, 49, 13), rgb(0, 87, 22),  rgb(2, 121, 32),  rgb(86, 184, 111),  rgb(137, 216, 157));
 }
 
 header, footer, main {
