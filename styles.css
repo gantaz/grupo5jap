@@ -24,13 +24,12 @@ header, footer, main {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    margin: 100px;
     transition: transform 0.2s;
 }
 
 .link-button:hover {
     transform: scale(1.1);
-
-    margin: 100px;
 }
 
 #inicio video{
