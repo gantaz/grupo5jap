@@ -1,9 +1,9 @@
 body {
-    background-image: linear-gradient(to right, grey, white);
+    background-image: linear-gradient(to right, grey, darkgrey);
 }
 
 .image {
-    border: 5px solid white;
+    border: 6px solid white;
     border-radius: 10px;
     height: 400px;
 }
