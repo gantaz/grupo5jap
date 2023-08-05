@@ -16,6 +16,7 @@ header, footer, main {
 }
 
 .link-button {
+    display: inline-block;
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -23,6 +24,12 @@ header, footer, main {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition: transform 0.2s;
+}
+
+.link-button:hover {
+    transform: scale(1.1);
+
     margin: 100px;
 }
 
