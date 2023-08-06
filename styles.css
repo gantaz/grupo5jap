@@ -1,14 +1,22 @@
-body {
-    background-color: rgb(255, 255, 165);
+.pages {
+    background-image: linear-gradient(to right, rgb(1, 49, 13), rgb(0, 87, 22),  rgb(2, 121, 32),  rgb(86, 184, 111),  rgb(137, 216, 157));
 }
 
-.image{
-    border: 5px solid green;
+header, footer, main {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.image {
+    border: 6px solid white;
     border-radius: 10px;
     height: 400px;
 }
 
 .link-button {
+    display: inline-block;
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -16,9 +24,76 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    padding: 8px;
+    margin: 8px;
+    transition: transform 0.2s;
 }
 
-#inicio {
-    text-align:center;
-    padding-top:15%;
+.link-button:hover {
+    transform: scale(1.1);
+}
+
+#inicio video{
+    position: absolute;
+    z-index: -1;
+        
+}
+
+#inicio h1{
+    color: white;
+    font-size: 100px;
+}
+
+#inicio h2{
+    color: white;
+    font-size: 50px;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;-webkit-text-stroke: 1px white; 
+  }
+
+h2 {
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+p {
+    font-size: 20px;
+    width: 800px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.allhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entrar {
+    width: 300px;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto mono', monospace;
+    border-radius: 50px;    
+}
+
+#integrantes {
+    margin-top: 20px;
+    color: white;
+    width: 80%;
+}
+
+marquee {
+    width: 100%;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
 }
