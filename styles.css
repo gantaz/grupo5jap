@@ -59,7 +59,26 @@ h1 {
 h2 {
     font-size: 40px;
     font-family: 'Roboto Mono', monospace;
-   
+}
+
+.grupo {
+    color: rgba(253, 69, 69, 0.959)
+}
+
+.tierra {
+    color: rgb(110, 44, 0)
+}
+
+.espacial {
+    color: rgb(46, 64, 83)
+}
+
+.cableado {
+    color: rgb(33, 47, 61)
+}
+
+.google {
+    color: rgb(0, 59, 82)
 }
 
 p {
